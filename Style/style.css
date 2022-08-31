@@ -386,6 +386,10 @@ footer{
         align-items: center;
     }
 
+    .funcionalidades{
+        height: 80vh
+    }
+
     .imglaptop{
         width: 72%;
         padding-top: 10px
@@ -402,7 +406,7 @@ footer{
 
     .tarjetas_todo{
         flex-direction: column;
-        height: 300vh
+        height: 200vh
     }
 
   footer{
@@ -420,5 +424,18 @@ footer{
         width: 100%;
         align-items: center;
         height: 150px
+    }
+
+    .botones{
+        flex-direction: column;
+        height: 100px;
+        width: 150px
+    }
+
+    .boton1{
+        width: 90%;
+    }
+    .boton2{
+        width: 90%;
     }
 }
