@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+li{
+    list-style: none;
+    padding-left: 10px;
+}
+
+header{
+    background-color: #1E172F;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content:space-between;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    border: none;
+}
+
+#logo1{
+    box-shadow: none;
+}
+
+#atenuado{
+    color:#7C7785;
+}
+
+#boton1{
+    background-image: linear-gradient(to right, #8640D5, #047ED5);
+    color: #fff;
+    width: 120px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.inicio{
+    display: flex;
+}
+
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    background-color: #2E2550;
+    height: 600px
+}
+
+.derecha{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    width: 50%;
+    background-image: url(/images/photo-1476374220630-14ae6379518c.jfif);
+    background-size: cover;
+    height: 600px
+}
+
+#celu{
+    width: 200px;
+}
+.parrafo{
+    width: 80%;
+    color: #fff;
+}
+
+.h1{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+}
+
+.botones{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+    width: 60%;
+    border: solid 2px #7C7785;
+    border-radius: 7px;
+    align-items: center;
+    justify-content:space-evenly;
+    height: 50px
+}
+
+.boton1{
+    background-color: #fff;
+    width: 50%;
+    height: 35px;
+    border-radius: 7px;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #F41486;
+    font-weight:600;
+}
+.boton2{
+    background-color: #2E2550;
+    width: 40%;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-weight:600;
+    border: solid 2px
+}
+
+.funcionalidades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: column;
+    background-color: #F1F2F7;
+    height: 500px
+}
+
+.imglaptop{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laptopderecha{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.abajolaptop{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.funcionalidades h2{
+    font-size: 35px;
+    margin-top: 10px;
+    color: #F41486;
+}
+
+#titulo{
+    color:#F41486;
+}
+
+.linea{
+    background-color: #F41486;
+    width:20px;
+    height: 2px;
+    margin-right: 20px;
+}
+
+.titulolista{
+    display: flex;
+    align-items: center;
+}
+
+.planes{
+    background-color: #1E172F;
+    color: #fff;
+}
+
+#titulo1{
+    font-size: 35px;
+    font-weight:700;
+}
+
+.planesarriba{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    text-align: center;
+    width: 40%;
+}
+
+.paracentrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjetas_todo{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.tarjetas{
+    background-color: #fff;
+    width: 250px;
+    height: 460px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.arriba{
+    padding-bottom: 10px;
+    color:#1E172F
+}
+
+.precio{
+    height: 15%;
+    background-color: #F1F2F7;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.botonTarjeta1{
+    background-color: #F1F2F7;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+.precio p{
+    font-size: 30px
+}
+
+.precio b{
+    font-size: 12px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    float: right;
+    color: rgb(126, 126, 126);
+}
+
+.precio_ulti p{
+    font-size: 30px
+}
+
+.precio_ulti b{
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    float: right;
+    color: rgb(126, 126, 126);
+}
+
+.precio_ulti{
+    height: 15%;
+    background-color: #F1F2F7;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulolista1{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.parrafos{
+    width: 80%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.abajo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul{
+    padding-top: 7px;
+}
+
+.boton3{
+    background-color: #2E2550;
+    width: 50%;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-weight:600;
+    border: solid 2px
+}
+
+.boton4{
+    background-color: #F41486;
+    width: 50%;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 16px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;
+    font-weight:600;
+    border: solid 2px
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+}
+
+@media screen and (max-width:600px){
+    
+    header{
+    flex-direction:column;
+    height: 250px
+    }
+    
+    #celu {
+        width: 183px;
+    }
+    .links{
+        flex-direction: column;
+        justify-content:space-evenly;
+        height: 200px
+    }
+
+    .inicio{
+        flex-direction: column;
+    }
+
+    .izquierda{
+        width: 100%;
+    }
+
+    .derecha{
+        width: 100%;
+    }
+
+    .abajolaptop{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imglaptop{
+        width: 72%;
+        padding-top: 10px
+    }
+
+    .planesarriba p{
+        height: 200px;
+        width: 400px;
+    }
+
+    #titulo1{
+        height: 100px
+    }
+
+    .tarjetas_todo{
+        flex-direction: column;
+        height: 300vh
+    }
+
+  footer{
+        font-size: 13px;
+        flex-direction: column;
+    }
+    .textoFooter{
+        display: flex;
+        align-items: center;
+        height: 200px
+    }
+    .logosFooter{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+        height: 150px
+    }
+}
