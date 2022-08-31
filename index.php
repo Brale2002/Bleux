@@ -1,1 +1,1 @@
-<? require_once("index.html")?>
+<? require_once("inde.html")?>
